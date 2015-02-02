@@ -11,6 +11,6 @@ Completed:
 * [x] Optional: Using locale-specific currency and currency thousands separators.
 
 
-![GIF Walkthrough](anim_tip_calculator.gif)
+![GIF Walkthrough](tip_calculator_demo.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
