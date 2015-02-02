@@ -13,6 +13,8 @@
 		110838581A7EA1F100AA52F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110838571A7EA1F100AA52F4 /* Images.xcassets */; };
 		1108385B1A7EA1F100AA52F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 110838591A7EA1F100AA52F4 /* LaunchScreen.xib */; };
 		110838671A7EA1F100AA52F4 /* tipfuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110838661A7EA1F100AA52F4 /* tipfuTests.swift */; };
+		110838711A7F54C100AA52F4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110838701A7F54C100AA52F4 /* SettingsViewController.swift */; };
+		11CE4BDB1A7FE26C00323999 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 11CE4BDA1A7FE26C00323999 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		110838601A7EA1F100AA52F4 /* tipfuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipfuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		110838651A7EA1F100AA52F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		110838661A7EA1F100AA52F4 /* tipfuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipfuTests.swift; sourceTree = "<group>"; };
+		110838701A7F54C100AA52F4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "View Controllers/SettingsViewController.swift"; sourceTree = "<group>"; };
+		11CE4BDA1A7FE26C00323999 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +84,11 @@
 				110838501A7EA1F100AA52F4 /* AppDelegate.swift */,
 				110838521A7EA1F100AA52F4 /* ViewController.swift */,
 				110838541A7EA1F100AA52F4 /* Main.storyboard */,
+				110838701A7F54C100AA52F4 /* SettingsViewController.swift */,
 				110838571A7EA1F100AA52F4 /* Images.xcassets */,
 				110838591A7EA1F100AA52F4 /* LaunchScreen.xib */,
 				1108384E1A7EA1F100AA52F4 /* Supporting Files */,
+				11CE4BDA1A7FE26C00323999 /* README.md */,
 			);
 			path = tipfu;
 			sourceTree = "<group>";
@@ -214,6 +220,8 @@
 			files = (
 				110838531A7EA1F100AA52F4 /* ViewController.swift in Sources */,
 				110838511A7EA1F100AA52F4 /* AppDelegate.swift in Sources */,
+				11CE4BDB1A7FE26C00323999 /* README.md in Sources */,
+				110838711A7F54C100AA52F4 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +413,7 @@
 				1108386C1A7EA1F100AA52F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1108386D1A7EA1F100AA52F4 /* Build configuration list for PBXNativeTarget "tipfuTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				1108386F1A7EA1F100AA52F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
